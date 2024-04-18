@@ -1,0 +1,28 @@
+div#blok1_filipiak{
+
+    background-color: 00ff00;
+    width:608px;
+}
+
+div#blok1_filipiak:hover{
+    background-color: #ff9900;
+    font-size:18mm;
+}
+div#blok2_filipiak {
+    background-color: 00ff00;width:608px;
+}
+
+div#blok2_filipiak {
+    background-color: 00ff00;width:608px;
+}
+div#blok3_filipiak {
+    background-color: 00ff00;width:608px;
+}
+div#blok2_filipiak:hover {
+    background-color: #3366ff;font-size:18mm;
+}
+div#blok3_filipiak:hover {
+    background-color: #30d5c8;font-size:18mm;
+}
+
+
