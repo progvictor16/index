@@ -1,0 +1,47 @@
+body{
+    background-color:grey;
+}
+p {
+    font-size: 10pt;
+  
+}
+
+    p:first-child {
+        font-size: 9mm;              
+        font-style: italic;
+    }
+
+div#pierwszy_filipiak {                  
+    background-color: pink;
+    border-radius: 13mm;
+    border-top-left-radius: 13mm;
+    border-bottom-right-radius: 13mm;
+    border-bottom-left-radius: 13mm;
+    border: #990099 solid 7px;
+    width: 732pt;
+}
+
+div#drugi_filipiak {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #99FF66;
+    border-top-right-radius: 15mm;
+    border-top-left-radius: 15mm;
+    border-bottom-right-radius: 15mm;
+    border-bottom-left-radius: 15mm;
+    border: black solid 3px;
+    width: 932pt;
+}
+
+
+div#trzeci_filipiak {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #66CCFF;
+    border-top-right-radius: 12mm;
+    border-top-left-radius: 12mm;
+    border-bottom-right-radius: 12mm;
+    border-bottom-left-radius: 12mm;
+    border: #0000a2 solid 5px;
+    width: 1132pt;
+}

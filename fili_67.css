@@ -1,0 +1,52 @@
+p#pierwszy_akapit
+ {
+ color:#666699;
+ font-size:21pt;
+ }
+p#pierwszy_akapit:first-letter
+ {
+ color:yellow;
+ font-size:115pt;
+ }
+ p#drugi_akapit:first-letter
+ {
+ color:yellow;
+ font-size:115pt;
+ }
+ p#drugi_akapit
+ {
+ color:#666699;
+ font-size:21pt;
+}
+h1:first-letter
+ {
+ color:#666699;
+ font-size:115pt;
+ }
+ h1
+ {
+ color:#6600FF;
+ font-size:70pt;
+
+ }
+ p#elo::first-line
+
+ {
+ color:red;
+ font-size:30pt;
+ }
+
+
+p#elo::first-letter
+
+{
+color:red;
+font-size:50pt;
+}
+
+p#elo
+
+{
+color:blue;
+font-size:30pt;
+}
