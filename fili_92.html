@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style type="text/css"> /* początek def CSS */
+ * { margin: 0px; padding: 0px;} /* zerowanie styli */
+ div {overflow: hidden; padding: 25px; }
+/* overflow: hidden --> ????????????????? */
+/* padding: 25px; --> ??????????????????*/
+ #ramka { /* definicja elementu ID o nazwie ramka*/
+ margin-right: auto; /* auto -->??????? */
+ margin-left: auto;
+ min-width: 400px; /* minimalna szer strony-->?? */
+ max_width: 900px; /* maksymalna szer strony-->?? */
+ }
+ #naglowek {
+ background-color: #FFEBCD; 
+/* kolor tła w HEX na #FCF; */
+ font-size:16pt; 
+/* wielkość czcionki na 16 na jaka tu jest jednostka-wpisz */
+ color:red; 
+/* ????????????? */
+ font-family: Arial; 
+/* ????????????? */
+ font-style: italic;
+/* ????????????? */
+ text-align: center; 
+/* ????????????? */
+ font-weight:bold;
+/* ????????????? */
+ }
+ #stopka {
+ background-color: #F4A460;
+ font-size:16pt; 
+ color:blue; 
+ font-family: Arial; 
+ font-style: italic;
+ clear:both; 
+/* clear-przyleganie elementów, both-?????????????? */
+ }
+.kolumny {/*definicja elementu ???? (jest kropka i co to znaczy)*/
+ margin-top: 10px; /* ????????????? */
+ margin-rigth: 2%; /* ????????????? */
+ margin-bottom: 2%; /* ????????????? */
+ margin-left: 10px; /* ????????????? */
+ background-color: #c0c0c0;
+ }
+ #kol1 {
+ float: left; /* ?????????????? */
+ width:100px;
+ background-color: #FFE4C4;
+ }
+ #kol2 {
+   background-color:#DEB887;
+   font-size: 0.7cm;
+   color: green;
+ }
+ #menu_prawe_filipiak {
+   float: right;
+   background-color: 	#D2B48C;
+   width:100px;
+   color: red;
+   font-size:0.5cm;
+ }
+/* ?????????????? <--*/</style>
+ </head>
+<body>
+ <div id="ramka">
+ <div id="naglowek">Nagłówek mojej strony </div>
+
+ <div class="kolumny" id="kol1"><p>Menu</p> </div>
+
+ <div class="kolumny" id="kol2"><p>Treść:<br>Szablon pływający (płynny szablon)
+   Przy zmianie szerokości okna przeglądarki zmieniać się będzie szerokość kolumn.
+   Najczęściej zmiana szerokości dotyczy tylko wybranych kolumn np. kolumna menu
+   pozostaje niezmieniona, pozostałe kolumny zmieniaja się płynnie w stosunku do 
+   szerokości okna.<br>
+   <img src="filipiak_50procent.jpg"> <img src="filipiak_100procent_skalowana.jpg">
+   </p> </div>
+   <div id="menu_prawe_filipiak">Filipiak</div><br><br>
+   <div id="stopka"> Pracę wykonał  Filipiak</div>
+ 
+ </div>
+ <br><br><br>
+<a href="index.html" target="strony">link powrotu do szkieletu</a> <br>
+</body>
+</html>

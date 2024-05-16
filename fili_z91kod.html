@@ -1,0 +1,145 @@
+<html>
+<head>
+
+
+   
+</head>
+<body>
+<h1>Kod HTML i CSS</h1>
+<textarea rows="140" cols="105">
+    <!- okreslenie typu HTML dla walidatora -->
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <! xmlns okresla przestrzeń nazw dla xml -->
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+    <head>
+    <title>styl wewnetrzny body</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!- styl wewnetrzny -->
+    <style type="text/css">
+    /* zerowanie wszystkich marginesów i przestrzeni*/
+    * {
+    margin: 0px;
+    padding: 0px;
+    }
+    /* definicja div*/
+    /* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/
+    div {
+    overflow: hidden;
+    }
+    /* definicja ramki-główny element*/
+    /* margin-right: auto;-wartość domyślna */
+    #ramka {
+    background-color: #C93;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    /* definicja nagłówka*/
+    #naglowek {
+    width: 100%;
+    background-color: #FFD700;
+    text-align: center;
+    font-size: 1cm;
+    color:green;
+    }
+    /* definicja stopki*/
+    #stopka {
+    width: 100%;
+    background-color: #F93;
+    text-align: center;
+    }
+    /* definicja klasy kolumny */
+    .kolumny {
+    width:30%;
+    margin-top:10px;
+    margin-right:2%;
+    margin-bottom:2%;
+    margin-left:10px;
+    }
+    /* definicje trzech kolumn */
+    /* float :left; to aby elementy były obok siebie */
+    #kolumna_pierwsza {
+    float:left;
+    background-color: #32CD32;
+    text-align: center;
+    }
+    #kolumna_druga {
+    float:left;
+    background-color: #1E90FF;
+    text-align: center;
+    }
+    #kolumna_trzecia {
+    background-color: #8B4513;
+    float:left;
+    text-align: center;
+    }
+    
+    
+    
+    
+    </style>
+    </head>
+    <body>
+    <div id="ramka">
+    <div id="naglowek">Victor Filipiak 1P </div>
+    <div class="kolumny" id="kolumna_pierwsza">
+    
+    <p>Możliwe technologie wykonia szablonu strony WWW:</p>
+        <li >w oparciu o tabele (HTML-->nie stosowane)</li>
+        <li>w oparciu o iframe (HTML-->nie stosowane)</li>
+        <li>na DIVach</li>
+        <li>w oparciu o instrukcje HTML5</li>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+    
+    
+    </div>
+    <div class="kolumny" id="kolumna_druga">
+    <p> overflow: hidden; -->Tekst, który będzie wystawał poza element zostanie ukryty
+        <br><br>float:left; -->Element, do którego została zastosowana zostanie ustawiony przy lewej krawędzi
+        <br><br>margin-top:10px; -->Ustawia górny wewnętrzny margines elementu HTML na 10 pikseli
+        <br><br>margin-right:2%;-->Ustawia margines prawy elementu na 2% szerokości elementu, czyli przesuwa go o 2% od prawej krawędzi kontenera lub elementu nadrzędnego
+        <br><br>margin-bottom:2%;-->Ustawia odstęp dolny wewnętrzny na 2% dla elementu HTML. Oznacza to, że zostanie dodany pusty obszar o wysokości równanej do 2% wysokości elementu, poniżej jego zawartości
+        <br><br>margin-left:10px--> Może to spowodować przesunięcie elementu HTML w prawo o 10 pikseli
+    </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    </div>
+    <div class="kolumny" id="kolumna_trzecia">
+    <p> Nowe instrukcje HTML 5:</p>
+    <li>SECTION
+    </li>
+    <li>ARTICLE</li>
+    <li>ASIDE</li>
+    <li>HEADER
+    </li>
+    <li>FOOTER
+    </li>
+    <li>NAV
+    
+    </li>
+    
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    </div>
+    <div id="stopka"><p>Możliwe technologie wykonia szablonu strony WWW:</p>
+        <li >w oparciu o tabele (HTML-->nie stosowane)</li>
+        <li>w oparciu o iframe (HTML-->nie stosowane)</li>
+        <li>na DIVach</li>
+        <li>w oparciu o instrukcje HTML5</li></div>
+    </div><br><br><br>
+    <a href="index.html" target="strony">link powrotu do szkieletu</a> <br>
+    </body>
+    </html>
+</textarea>
+</body>
+</html>
