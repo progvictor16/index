@@ -5,11 +5,6 @@
     Filipiak
 </title>
 <style>
-
-
-
-
-
 body { margin: 0px;
 border: 0px;
 padding: 0px; }
@@ -17,30 +12,26 @@ padding: 0px; }
 div
 {
 background-color:  #ffcc33;
-border: 5px  ;
-font-family:  czerwona;
-wielkość liter 42px;
-szerokość DIV’a 900px;
-wysokość DIV’a 150px;
-centrowanie DIV’a kliknij #centrowanie_bloku;
-centrowanie DIV’a kliknij #centrowanie_bloku;
-centrowanie tekstu; kliknij #text_align_center
+border: 5px black solid ;
+color: red;
+font-size:42px;
+width: 900px;
+height: 150px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
 }
-
-
-
-
-
 </style>
 
 </head>
 
-
 <body>
+    <div style="background-image:url(inicial_filipiak.png)">Powtarzanie grafiki dla całego obszaru</div><br><br>
 
+    <div style="background:url(inicial_filipiak.png);background-repeat:repeat-y;background-color:#ffff99;">Powtarzanie grafiki w pionie</div><br><br>
 
-
-
+    <div style="background:url(inicial_filipiak.png);background-repeat:repeat-x;background-color:#ffff99;">Powtarzanie grafiki w poziomie</div><br><br>
+    <div style="background:url(inicial_filipiak.png);background-repeat:no-repeat;background-size:400px 120px;background-color:#ffff99;background-position:center;">Grafiki centrowana o zadanej wielkości </div>
 </body>
 
 </html>
