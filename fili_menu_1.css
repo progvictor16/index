@@ -1,0 +1,96 @@
+body
+{
+    background-color: rgb(128, 98, 81);
+}
+ul 
+{
+list-style: none;
+margin: 5px;
+padding: 0px;
+}
+ul a:link, ul a:visited 
+{
+display: block;
+color: #005500; 
+text-decoration: none;
+}
+ul a:hover 
+{
+color: #ff00ff;
+text-decoration: underline;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: none;
+}
+Ul
+ {
+list-style: none;
+ margin: 5px;
+ padding: 0px;
+ display: block;
+ width: 150px;
+ }
+ ul li
+ {
+display: block;
+ list-style: none;
+ margin: 0px;
+ padding: 0px;
+ }
+ ul a:link, ul a:visited
+ {
+display: block;
+ color: #005500;
+ text-decoration: none;
+ border: 2px outset #cccccc;
+ padding: 5px;
+ width: 120px;
+ background-color: rgb(108, 32, 64);
+ }
+ ul a:hover
+ {
+color: #ff00ff;
+ text-decoration: none;
+ border-style: inset;
+ padding: 7px 3px 3px 7px;
+ background-color: rgb(114, 8, 32)
+ }
+ arkuszu stylów, definiuje (dopisz do przedniego): 
+ ul
+ {
+list-style: none;
+ margin: 5px;
+ padding: 0px;
+ display: block;
+ width: 150px;
+ }
+ ul li
+ {
+display: block;
+ list-style: none;
+ margin: 0px;
+ padding: 0px;
+ }
+ ul a:link, ul a:visited
+ {
+display: block;
+ color: #005500;
+ text-decoration: none;
+ border: 2px outset #cccccc;
+ padding: 5px;
+ width: 120px;
+ background-color: rgb(108, 32, 64);
+ 
+ }
+ ul a:hover
+ {
+color: #ff00ff;
+ text-decoration: none;
+ border-style: inset;
+ padding: 7px 3px 3px 7px;
+ background-color: rgb(114, 8, 32)
+ }
